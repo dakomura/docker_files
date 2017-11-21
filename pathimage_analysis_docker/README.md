@@ -16,11 +16,15 @@ nvidia-docker run -itd --privileged -v [[VOLUME]]:[[VOLUME]] -p [[PORT]]:[[PORT]
 
 ### Discription
 
+- Ubuntu 16.04, cuda=8.0, cudnn=6
 - username: gpat
 - initial password: ishikawa
-
+- default shell is /usr/bin/zsh, and oh-my-zsh is installed
+- fukuta's dotfiles are installed (you can replace it if you don't like it)
+- openslide is installed  
 - Python=3.6 is installed by anaconda3-4.3.0 with pyenv. and Following library is installed
+    - opencv3
     - chainer
-    - openslide
+    - openslide-python
 
-
+-  
