@@ -2,3 +2,5 @@
 
 now contains
 - pathimage_analysis
+- vips-dzsave
+

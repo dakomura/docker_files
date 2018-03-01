@@ -4,4 +4,4 @@
 
 ## usage
 
-`docker run --rm -v {HOST_DIR}:{CONTAINER_DIR} vips dzsave {SVS} {DIR} --layout google [--vips-progress]`
+`docker run --rm -v {HOST_DIR}:{CONTAINER_DIR} ken0nek/vips-dzsave vips dzsave {SVS} {DIR} --layout google [--vips-progress]`
